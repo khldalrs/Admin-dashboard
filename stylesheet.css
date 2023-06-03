@@ -1,0 +1,177 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.overall-container {
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  height: 100%;
+}
+
+
+/* Header Section */
+
+
+header {
+    display: flex;
+    grid-area: 1 / 2 / 2 / 6;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+}
+.ss {
+    width: 700px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.notification {
+    width: 20px;
+    height: 20px;
+    grid-area: 1 / 4 / 3 / 6;
+    margin: 20px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.pfp {
+    width: 80px;
+    height: 80px;
+}
+
+
+.pfp-name {
+    margin-left: 15px;
+}
+
+
+/* Aside Section */
+
+
+aside {
+    grid-area: 1 / 1 / 8 / 2;
+    background-color: rgb(78, 237, 128);
+    color: white;    
+}
+
+.dashboard-heading {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: larger;
+}
+
+.dashboard-icon {
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+
+.home-heading {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+.home-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.profile-heading {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.messages-heading {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+.messages-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.settings-heading {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: larger;
+    margin: 10px;
+}
+
+.settings-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.community-heading {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+.community-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.customer-support-header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: larger;
+}
+
+.customer-support-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Main Section */
+
+
+main {
+    grid-area: 2 / 2 / 6 / 6;
+    background-color: whitesmoke;
+}
